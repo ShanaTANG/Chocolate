@@ -1,0 +1,86 @@
+/*-----大標題(大標)-----*/
+.howtitle{
+    color: rgb(255, 159, 159);
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
+
+/*-----包內容資料的div-----*/
+#howid .how1{
+    width: 1050px;
+    height: 650px;
+    position: relative;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: #000;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
+}
+
+/*-----內容資料圖片-----*/
+#howid .how1 img{
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+#howid .how1:hover .img{
+    transform: translateY(-40%);
+}
+
+/*-----內容資料文字的div-----*/
+#howid .how1 .howword{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #7986cb;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: .5s;
+}
+#howid .how1:hover .howword{
+    bottom: -60%;
+}
+
+/*-----內容資料文字-----*/
+#howid .how1 .howword p{
+    font-size: 27px;
+    line-height: 45px;
+    color: azure;
+    padding: 10px 10px;
+}
+
+/*-----內容資料文字的div-----*/
+#howid .how1 .howword1{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #7986cb;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: .5s;
+}
+#howid .how1:hover .howword1{
+    bottom: -60%;
+}
+
+/*-----內容資料文字-----*/
+#howid .how1 .howword1 p{
+    font-size: 30px;
+    line-height: 45px;
+    color: azure;
+    padding: 30px 30px;
+}
+
+/*-----包內容資料的大div-----*/
+.howbox{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
