@@ -1,0 +1,123 @@
+/*-----認識我們(標題)-----*/
+.member1 {
+    margin-top: 50px;
+}
+.member2 {
+    color: gold;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+/*-----介紹成員-----*/
+#introduce {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 20px auto;
+    margin-left: 650px;
+    margin-top: 300px;
+    width: 550px;
+    transform: translateY(-50%) translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2 {
+    margin: 20px auto;
+    margin-left: 650px;
+    margin-top: 180px;
+    width: 550px;
+    transform: translateY(-50%) translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-----個人照-----*/
+.imageBox{
+    position: relative;
+    overflow: hidden;
+    width: 480px;
+    height: 480px;
+}
+.imageBox img {
+    width: 100%;
+    transition: .3s;
+}
+.imageBox:hover .textBox {
+    left: 0;
+}
+.imageBox:hover img {
+    transform: scale(1.2);
+}
+
+/*-----個人資料-----*/
+.textBox {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    transition: .5s;
+}
+.textBox h1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: white;
+    width: 500px;
+    font-size: 30px;
+    line-height: 55px;
+    letter-spacing: 5px;
+}
+
+/*-----字體動畫-----*/
+.totalword {
+    display: flex;
+}
+
+.word {
+    color: white;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    line-height: 58px;
+    width: 700px;
+}
+
+.word2 {
+    color: white;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    line-height: 58px;
+    width: 700px;
+}
+
+.word3 {
+    color: white;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    line-height: 58px;
+    width: 700px;
+}
+
+.word4 {
+    color: white;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    line-height: 58px;
+    width: 700px;
+}

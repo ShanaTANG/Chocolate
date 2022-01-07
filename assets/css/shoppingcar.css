@@ -1,0 +1,132 @@
+/*-----購物車內頁-----*/
+.shopping_car {
+    width: 1200px;
+    height: auto;
+    background-image: url("../images/大理石1.jpg");
+    background-size: 100% 100%;
+    margin: 50px auto;
+    opacity: 85%;
+    border-radius: 50px;
+}
+
+/*-----購物車(大標)-----*/
+.car2 {
+    font-size: 80px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    padding-top: 25px;
+    letter-spacing: 50px;
+    font-weight: 500;
+}
+
+/*-----再去逛逛按鈕-----*/
+.car3 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #173d6e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+}
+.car3:hover {
+    background-color:#4b59a8;
+}
+.car3:active {
+    background-color: #4b59a8;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/*-----結帳按鈕-----*/
+.car4{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #173d6e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    letter-spacing: 7px;
+}
+.car4:hover{
+    background-color: #4b59a8;
+}
+.car4:active{
+    background-color: 4b59a8;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/*-----購物商品大div-----*/
+.carhouse {
+    display: flex;
+    width: 870px;
+    height: 400px;
+    margin-left: 13%;
+    margin-top: 50px;
+    border: 5px double #545250;
+}
+
+/*-----購物商品圖片-----*/
+.car_picture {
+   float: left;
+   margin-left: 2%;
+   margin-top: 11px;
+
+}
+
+/*-----購物商品資料-----*/
+.car_content {
+    float: left;
+    margin-left: 5%;
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 55px;
+    width: 380px;
+}
+
+/*-----購物商品取消鈕-----*/
+.delete {
+    position: relative;
+    bottom: -325px;
+    right: -5px;
+    font-size:30px;
+    color: white;
+    background-color: #173d6e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-weight: bold;
+    transition: 0.3s;
+    height: 50px;
+}
+.delete:hover{
+    background-color: #4b59a8;
+}
+.delete:active{
+    background-color: 4b59a8;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
