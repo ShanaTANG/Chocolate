@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購物車</title>
+    <style>
+        @import "../assets/css/shoppingcar.css";
+        @import "../assets/css/index.css";
+    </style>
+</head>
+
+<body>
+    <!----置頂內容---->
+    <header>
+        <div id="top">
+            <a href="../index.html" style="text-decoration: none" class="Chocolate">黑金 Chocolate</a>
+        </div>
+    </header>
+
+    <main>
+        <!----上方菜單---->
+        <div class="menu">
+            <ul>
+                <li class="menu1">
+                    <div class="dropdown">
+                        <button class="dropbtn">商品分類</button>
+                        <div class="dropdown-content">
+                            <a href="allproduction.html#top">全部商品</a>
+                            <a href="allproduction.html#alcohol">大人口味<br>(含酒)</a>
+                            <a href="allproduction.html#childhood">童年回憶</a>
+                            <a href="allproduction.html#festival">節慶活動<br>(送禮)</a>
+                            <a href="allproduction.html#adult">成長滋味<br>(%數較高)</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu1">
+                    <div class="dropdown">
+                        <button class="dropbtn">常見問題</button>
+                        <div class="dropdown-content">
+                            <a href="questions.html">Q&A</a>
+                            <a href="how.html">如何挑選</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu1">
+                    <a href="member.html" style="text-decoration: none" class="menubtn">認識我們</a>
+                </li>
+                <li class="menu1">
+                    <a href="client.html" style="text-decoration: none;" class="menubtn">會員專區</a>
+                </li>
+                <li class="menu1">
+                    <a href="login.html" style="text-decoration: none" class="menubtn">會員登錄/註冊</a>
+                </li>
+            </ul>
+        </div>
+
+        <!----購物車置底按鈕---->
+        <aside>
+            <a href="shoppingcar.html">
+                <img src="../assets/images/購物車1.jpg" class="shoppingcar">
+            </a>
+        </aside>
+        
+        <!----搜尋框---->
+        <div class="sbox">
+            <div class="searchbox">
+                <span class="icon"><a href=""><img src="../assets/images/搜尋.png"></a></span>
+                <input type="search" id="search" placeholder="Search..." />
+            </div>
+        </div>
+
+        <!----購物車內頁---->
+        <div class="shopping_car">
+            <div class="car1">
+                <p class="car2">購 物 車</p>
+                <div class="carhouse">
+                    <div class="car_picture">
+                        <img src="../assets/images/童年3.png" alt="" width="350">
+                    </div>
+                    <div class="car_content">
+                       <!-- <p>童年巧克力</p>-->
+                        <p>義美QQ巧克力球</p>
+                        <p>庫存數量：70</p>
+                        <p>價錢：NT 35</p>
+                        <p>訂購數量：</p>
+                    </div>
+                    <input type="submit" value="刪除" class="delete">
+                </div>
+
+                <div class="carhouse">
+                    <div class="car_picture">
+                        <img src="../assets/images/苦5.png" alt="" width="350">
+                    </div>
+                    <div class="car_content">
+                       <!-- <p>成長滋味(%數較高)</p>-->
+                        <p>明治 代可可脂黑巧克力</p>
+                        <p>庫存數量：20</p>
+                        <p>價錢：NT 65</p>
+                        <p>訂購數量：</p>
+                    </div>
+                    <input type="submit" value="刪除" class="delete">
+                </div>
+
+                <input type="button" value="再去逛逛" onclick="location.href='../pages/allproduction.html#top';" class="car3">
+                <input type="button" value="  結帳  " onclick="location.href='pay.html';" class="car4">
+            </div>
+        </div>
+    </main>
+
+    <!----置底內容---->
+    <footer>
+        <p>♥ 版權皆為黑金團隊所有 ♥</p>
+    </footer>
+</body>
+
+</html>
